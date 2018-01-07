@@ -31,7 +31,7 @@ DO NOT USE THIS GROUP DIRECTLY USE 0/0/10 INSTEAD","DPST-1-1","Auto"
 "Master Bedroom-All-SW","0/0/31","","","Master Bedroom Ceiling Light All","DPST-1-1","Auto"
 "Garage-Spotlights-SW","0/0/32","","","Garage Garage Door","DPST-1-1","Auto"
 "Kitchen-Dining Table By Activity Room-SW","0/0/34","","","Alrum Dining Table @ Activity Room light switch","DPST-1-1","Auto"
-"Livingroom-Spotlights-SW","0/0/38","","","Livingroom Spot over Table","DPST-1-1","Auto"
+"Livingroom-Spotlight-SW","0/0/38","","","Livingroom Spot over Table","DPST-1-1","Auto"
 "West Room-Ceiling Lights-SW","0/0/44","","","West room Ceiling Lamp Switch","DPST-1-1","Auto"
 "East room-Ceiling Lights-SW","0/0/46","","","East room Ceiling Lamp Switch","DPST-1-1","Auto"
 "Activity Room-Pool Table-SW","0/0/49","","","Activity Room Pooltable Light Switch","DPST-1-1","Auto"
@@ -57,7 +57,7 @@ ignore=true","DPST-1-1","Auto"
 "Small Hallway-Spotlights-SW-FB","0/1/21","","","Small Hallway Spot Switch Feedback","DPST-1-1","Auto"
 "Kitchen-Dining Table By Activity Room-SW-FB","0/1/35","","","Alrum Dining Table @ Activity Room Switch feedback","DPST-1-1","Auto"
 "Kitchen-Kitchen Table-SW-FB","0/1/36","","","Kitchen Table Swith Feedback","DPST-1-1","Auto"
-"Livingroom-Spotlights-SW-FB","0/1/39","","","Livingroom Spot over Table","DPST-1-1","Auto"
+"Livingroom-Spotlight-SW-FB","0/1/39","","","Livingroom Spot over Table","DPST-1-1","Auto"
 "Depot-Spotlights-SW-FB","0/1/63","","","Depot Spots Switch feedback","DPST-1-1","Auto"
 "Entrance-Spotlights-SW-FB","0/1/64","","","Entre Spots Switch Feedback","DPST-1-1","Auto"
 "Garage-Spotlights-SW-FB","0/1/65","","","Garage Spots Switch Feedback","DPST-1-1","Auto"
@@ -79,7 +79,7 @@ ignore=true","DPST-1-1","Auto"
 "Guest Bathroom-Shower Spotlight-DIM","0/2/25","","","Guest Bathroom Shower Spot DImmer","DPST-3-7","Auto"
 "Office-Ceiling Lights-DIM","0/2/27","","","Kontor Office Ceiling Light","DPST-3-7","Auto"
 "Kitchen-Dining Table By Activity Room-DIM","0/2/33","","","Kitchen Dining Table @ Activity Room Dimmer","DPST-3-7","Auto"
-"Livingroom-Spotlights-DIM","0/2/37","","","Livingroom Spot over Table","DPST-3-7","Auto"
+"Livingroom-Spotlight-DIM","0/2/37","","","Livingroom Spot over Table","DPST-3-7","Auto"
 "Master Bedroom-Ceiling Lights-N-DIM","0/2/50","","","Master Bedroom Ceiling Light N","DPST-3-7","Auto"
 "Master Bedroom-Ceiling Lights-S-DIM","0/2/52","","","Master Bedroom Ceiling Light S","DPST-3-7","Auto"
 "Master Bedroom-All-DIM","0/2/58","","","Master Bedroom Ceiling Light All","DPST-3-7","Auto"
@@ -91,7 +91,7 @@ ignore=true","DPST-1-1","Auto"
 "Entrance-Spotlights-DIM-VAL","0/3/17","","","Entrance Spots Dimmer Value","DPST-5-1","Auto"
 "Guest Bathroom-Spotlights-DIM-VAL","0/3/21","","","Guest Bathroom spots Dimmer","DPST-5-1","Auto"
 "Small Hallway-Spotlights-DIM-VAL","0/3/23","","","Small Hallway Spot Dimmer Value","DPST-5-1","Auto"
-"Livingroom-Spotlights-DIM-VAL","0/3/41","","","Livingroom Spot over Table","DPST-5-1","Auto"
+"Livingroom-Spotlight-DIM-VAL","0/3/41","","","Livingroom Spot over Table","DPST-5-1","Auto"
 "Kitchen-Kitchen Table-DIM-VAL","0/3/42","","","Kitchen table light dimmer value","DPST-5-1","Auto"
 "Kitchen-Dining Table By Activity Room-DIM-VAL","0/3/43","","","Alrum Dining Table","DPST-5-1","Auto"
 "Guest Bathroom-Shower Spotlight-DIM-VAL","0/3/48","","","Guest Bathroom Shower Spot Dimmer Value","DPST-5-1","Auto"
@@ -118,25 +118,25 @@ ignore=true","DPST-1-1","Auto"
 "Livingroom-Spotlight-DIM-VAL-FB","0/4/40","","","Livingroom Spot over Table","DPST-5-1","Auto"
 "Stue - Lamel gardiner - Drej lamel","1/5/0","","","openhab:
 ignore=true","","Auto"
-"Køkken Almrum - Lamel gardiner - Aaben og luk","1/5/1","","","openhab:
+"Kï¿½kken Almrum - Lamel gardiner - Aaben og luk","1/5/1","","","openhab:
 ignore=true","","Auto"
-"Køkken Alrun - Lamel gardiner - Drej lamel","1/5/2","","","openhab:
+"Kï¿½kken Alrun - Lamel gardiner - Drej lamel","1/5/2","","","openhab:
 ignore=true","","Auto"
 "Stue - Lamel gardiner - Aaben og luk","1/5/3","","","openhab:
 ignore=true","","Auto"
-"Køkken Alrum - Lamel Position","1/5/4","","","openhab:
+"Kï¿½kken Alrum - Lamel Position","1/5/4","","","openhab:
 ignore=true","","Auto"
-"Køkken Alrum - Move to position","1/5/5","","","openhab:
+"Kï¿½kken Alrum - Move to position","1/5/5","","","openhab:
 ignore=true","","Auto"
 "Depot - Lys - Disable Time Function- on/off","1/6/11","","","openhab:
 ignore=true","DPST-1-1","Auto"
-"# House Wide - Status LEDs - Nattedæpning","1/6/23","","","openhab:
+"# House Wide - Status LEDs - Nattedï¿½pning","1/6/23","","","openhab:
 ignore=true","DPST-1-1","Auto"
-"Værelse Øst - Status","1/6/47","","","openhab:
+"Vï¿½relse ï¿½st - Status","1/6/47","","","openhab:
 ignore=true","DPST-1-1","Auto"
-"Stort badeværelse - Scene Input","1/6/54","","","openhab:
+"Stort badevï¿½relse - Scene Input","1/6/54","","","openhab:
 ignore=true","","Auto"
-"Soveværelse - Scene Input","1/6/60","","","openhab:
+"Sovevï¿½relse - Scene Input","1/6/60","","","openhab:
 ignore=true","DPT-17","Auto"
 "Master Bedroom-PBS-N-RT","2/0/0","","","Master Bedroom Heating","DPST-9-1","Auto"
 "Master Bedroom-PBS-S-RT","2/0/1","","","Master Bedroom Heating","DPST-9-1","Auto"

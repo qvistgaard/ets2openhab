@@ -12,27 +12,24 @@ public class Light extends Switch {
 
 	public Light(SupportedLine supportedLine) {
 		super(supportedLine);
+		setIcon("lightbulp");
 	}
 
 	public void addLine(LightSwitch lightSwitch){
 		setOnOff(lightSwitch);
 	}
-
 	public void addLine(LightSwitchFeedback lightSwitchFeedback){
 		setOnOffFeedback(lightSwitchFeedback);
 	}
-
 	public void addLine(LightDimmer lightDimmer){
 		setIncreaseDecrease(lightDimmer);
 	}
-
 	public void addLine(LightDimmerValue lightDimmerValue){
 		setPercent(lightDimmerValue);
 	}
 	public void addLine(LightDimmerValueFeedback lightDimmerValueFeedback){
 		setPercentFeedback(lightDimmerValueFeedback);
 	}
-
 
 	@Override
 	public String openhab() {
@@ -42,18 +39,18 @@ public class Light extends Switch {
 			if (getOnOffFeedback() == null) {
 				sb.append("<");
 			}
-			sb.append(getOnOff().toString());
+			sb.append(getOnOff().getAddress());
 			if (getOnOffFeedback() != null) {
-				sb.append("+<" + getOnOffFeedback().toString());
+				sb.append("+<" + getOnOffFeedback().getAddress());
 			}
 			if (getIncreaseDecrease() != null) {
 				type = "Dimmer";
-				sb.append(", " + getIncreaseDecrease());
+				sb.append(", " + getIncreaseDecrease().getAddress());
 			}
 			if (getPercent() != null) {
-				sb.append(", " + getPercent());
+				sb.append(", " + getPercent().getAddress());
 				if (getPercentFeedback() != null) {
-					sb.append("+<" + getPercentFeedback());
+					sb.append("+<" + getPercentFeedback().getAddress());
 				}
 			}
 			return openhab(type, getName(), getLabel(), getIcon(), getGroups(), getTags(), sb.toString());

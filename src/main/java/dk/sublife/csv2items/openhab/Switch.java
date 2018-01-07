@@ -33,10 +33,25 @@ public class Switch extends Item {
 
 	@Override
 	public String openhab() {
-		StringBuilder sb = new StringBuilder(getOnOff().toString());
-		if(getOnOffFeedback() != null){
-			sb.append("+<"+getOnOffFeedback().toString());
+		StringBuilder sb = new StringBuilder();
+
+		if(getOnOffFeedback() == null) {
+			if (onOff.isReadable(true)) {
+				sb.append("<");
+			}
+			sb.append(getOnOff().getAddress());
+		} else {
+			if (onOff.isReadable(false)) {
+				sb.append("<");
+			}
+			sb.append(getOnOff().getAddress());
+			sb.append("+");
+			if(onOffFeedback.isReadable(true)){
+				sb.append("<");
+			}
+			sb.append(onOffFeedback.getAddress());
 		}
+
 		return openhab("Switch", getName(), getLabel(), getIcon(), getGroups(), getTags(), sb.toString());
 	}
 

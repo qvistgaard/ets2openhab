@@ -27,21 +27,28 @@ public class Number extends Item {
 
 	@Override
 	public String openhab() {
+
+		// 9.001
 		StringBuilder sb = new StringBuilder();
-		if(getValueFeedback() == null) {
-			sb.append("<");
+		if (getValue() != null) {
+			if (getValueFeedback() == null) {
+				sb.append("<");
+			}
+			if (getDpt() != null) {
+				sb.append(getDpt() + ":");
+			}
+			sb.append(getValue().getAddress());
 		}
-		if(getDpt() != null){
-			sb.append(getDpt()+":");
-		}
-		sb.append(getValue().toString());
 		if(getValueFeedback() != null){
-			sb.append("+<");
+			if(getValue() != null) {
+				sb.append("+");
+			}
+			sb.append("<");
 			if(getDpt() != null){
 				sb.append(getDpt()+":");
 			}
 
-			sb.append(getValueFeedback().toString());
+			sb.append(getValueFeedback().getAddress());
 		}
 		return openhab("Number", getName(), getLabel(), getIcon(), getGroups(), getTags(), sb.toString());
 	}
