@@ -1,0 +1,408 @@
+"Group name","Address","Central","Unfiltered","Description","DatapointType","Security"
+"Driveway-WL-SW","0/0/1","","","Driveway Wall Light Switch **DO NOT USE**,
+DO NOT USE THIS GROUP DIRECTLY USE 0/0/10 INSTEAD","DPST-1-1","Auto"
+"House-All-SW","0/0/2","","","Entire house All Lights Switch","DPST-1-1","Auto"
+"Kitchen-All-SW","0/0/3","","","Kitchen All Lights Switch","DPST-1-1","Auto"
+"Activity Room-All-SW","0/0/4","","","Activity Room All Lights Switch","DPST-1-1","Auto"
+"Livingroom-All-SW","0/0/5","","","Livingroom All Lights Switch","DPST-1-1","Auto"
+"Guest Bathroom-All-SW","0/0/6","","","Guest bathroom All Lights Switch","DPST-1-1","Auto"
+"Master Bathroom-All-SW","0/0/7","","","Master bathroom All Lights Switch","DPST-1-1","Auto"
+"Master Bathroom-Shower Spotlight-SW","0/0/8","","","Master Bathroom Ceiling Spots - Shower","DPST-1-1","Auto"
+"Outside-All-SW","0/0/9","","","Outside All Lights Switch","DPST-1-1","Auto"
+"Driveway-SENSOR-SW","0/0/10","","","Driweway Sensor Switch","DPST-1-1","Auto"
+"Kitchen-Dining Table By Livingroom-SW","0/0/11","","","Alrum Dining Table @ Livinroom light switch","DPST-1-1","Auto"
+"Kitchen-Dining Table-SW","0/0/12","","","Alrum Dining Table All light switch","DPST-1-1","Auto"
+"Depot-Spotlights-SW","0/0/13","","","Depot Ceiling Lights switch","DPST-1-1","Auto"
+"Mudroom-Spotlights-SW","0/0/14","","","Mudroom Ceiling Spots","DPST-1-1","Auto"
+"Kitchen-Kitchen Table-SW","0/0/15","","","Kitchen Table light switch","DPST-1-1","Auto"
+"Entrance-Spotlights-SW","0/0/16","","","Entre Spots Switch","DPST-1-1","Auto"
+"Guest Bathroom-Spotlights-SW","0/0/17","","","Guest Bathroom spots Switch","DPST-1-1","Auto"
+"Master Bathroom-Spotlights-SW","0/0/18","","","Master Bathroom Ceiling Spots","DPST-1-1","Auto"
+"Walk-in-Spotlights-SW","0/0/19","","","Walk-in Ceiling Spots","DPST-1-1","Auto"
+"Small Hallway-Spotlights-SW","0/0/20","","","Small Hallway Spot Switch","DPST-1-1","Auto"
+"Garage-Door-Light-SW","0/0/21","","","Garage Garage Door","DPST-1-1","Auto"
+"House-Inside-All-SW","0/0/22","","","","DPST-1-1","Auto"
+"House-Main-Living-Areas-All-SW","0/0/23","","","","DPST-1-1","Auto"
+"Guest Bathroom-Shower Spotlight-SW","0/0/24","","","Guest Bathroom Shower Spot Switch","DPST-1-1","Auto"
+"Livingroom-Behind Couch-SW","0/0/25","","","Livingroom-Behind Couch","DPST-1-1","Auto"
+"Office-Ceiling Lights-SW","0/0/26","","","Kontor Office Ceiling Light","DPST-1-1","Auto"
+"Master Bedroom-Ceiling Lights-S-SW","0/0/29","","","Master Bedroom Ceiling Light S","DPST-1-1","Auto"
+"Master Bedroom-Ceiling Lights-N-SW","0/0/30","","","Master Bedroom Ceiling Light N","DPST-1-1","Auto"
+"Master Bedroom-All-SW","0/0/31","","","Master Bedroom Ceiling Light All","DPST-1-1","Auto"
+"Garage-Spotlights-SW","0/0/32","","","Garage Garage Door","DPST-1-1","Auto"
+"Kitchen-Dining Table By Activity Room-SW","0/0/34","","","Alrum Dining Table @ Activity Room light switch","DPST-1-1","Auto"
+"Livingroom-Spotlights-SW","0/0/38","","","Livingroom Spot over Table","DPST-1-1","Auto"
+"West Room-Ceiling Lights-SW","0/0/44","","","West room Ceiling Lamp Switch","DPST-1-1","Auto"
+"East room-Ceiling Lights-SW","0/0/46","","","East room Ceiling Lamp Switch","DPST-1-1","Auto"
+"Activity Room-Pool Table-SW","0/0/49","","","Activity Room Pooltable Light Switch","DPST-1-1","Auto"
+"Terasse-WL-SW","0/0/67","","","Terasse Wall Light Switch","DPST-1-1","Auto"
+"Driveway-WL-SW-FB","0/1/0","","","Driveway Wall Light Switch Feedback","DPST-1-1","Auto"
+"Mudroom-Spotlights-SW-FB","0/1/1","","","Mudroom Ceiling Spots","DPST-1-1","Auto"
+"Activity Room-Pool Table-SW-FB","0/1/2","","","Activity Room All Lights Switch Feedback","DPST-1-1","Auto"
+"Master Bathroom-Spotlights-SW-FB","0/1/3","","","Master Bathroom Ceiling Spots","DPST-1-1","Auto"
+"Guest Bathroom-Spotlights-SW-FB","0/1/4","","","Guest Bathroom spots Switch Feedback","DPST-1-1","Auto"
+"Master Bedroom-Ceiling Lights-N-SW-FB","0/1/5","","","Master Bedroom Ceiling Light N","DPST-1-1","Auto"
+"Office-Ceiling Lights-SW-FB","0/1/6","","","Kontor Office Ceiling Light","DPST-1-1","Auto"
+"Master Bedroom-Ceiling Lights-S-SW-FB","0/1/7","","","Master Bedroom Ceiling Light S","DPST-1-1","Auto"
+"Guest Bathroom-Shower Spotlight-SW-FB","0/1/8","","","Guest Bathroom Shower Spot Switch Feedback
+
+openhab:
+type=contact
+ignore=true","DPST-1-1","Auto"
+"Master Bathroom-Shower Spotlight-SW-FB","0/1/9","","","Master Bathroom Ceiling Spots - Shower","DPST-1-1","Auto"
+"Walk-in-Spotlights-SW-FB","0/1/10","","","Walk-in Ceiling Spots","DPST-1-1","Auto"
+"Livingroom-Behind Couch-SW-FB","0/1/11","","","Livingroom-Behind Couch","DPST-1-1","Auto"
+"Kitchen-Dining Table By Livingroom-SW-FB","0/1/12","","","Alrum Dining Table @ LivingroomSwitch feedback","DPST-1-1","Auto"
+"Garage-Door-Light-SW-FB","0/1/14","","","Garage Garage Door","DPST-1-1","Auto"
+"Small Hallway-Spotlights-SW-FB","0/1/21","","","Small Hallway Spot Switch Feedback","DPST-1-1","Auto"
+"Kitchen-Dining Table By Activity Room-SW-FB","0/1/35","","","Alrum Dining Table @ Activity Room Switch feedback","DPST-1-1","Auto"
+"Kitchen-Kitchen Table-SW-FB","0/1/36","","","Kitchen Table Swith Feedback","DPST-1-1","Auto"
+"Livingroom-Spotlights-SW-FB","0/1/39","","","Livingroom Spot over Table","DPST-1-1","Auto"
+"Depot-Spotlights-SW-FB","0/1/63","","","Depot Spots Switch feedback","DPST-1-1","Auto"
+"Entrance-Spotlights-SW-FB","0/1/64","","","Entre Spots Switch Feedback","DPST-1-1","Auto"
+"Garage-Spotlights-SW-FB","0/1/65","","","Garage Spots Switch Feedback","DPST-1-1","Auto"
+"Terasse-WL-SW-FB","0/1/66","","","Terasse Wall Light Switch Feedback","DPST-1-1","Auto"
+"Kitchen-Kitchen Table-DIM","0/2/0","","","Kitchen table light dimmer","DPST-3-7","Auto"
+"Kitchen-Dining Table By Livingroom-DIM","0/2/1","","","Kitchen Dining Table @ Livingroom dimmer","DPST-3-7","Auto"
+"Kitchen-Dining Table-DIM","0/2/2","","","Kitchen Dining Table","DPST-3-7","Auto"
+"Guest Bathroom-All-DIM","0/2/3","","","Guest Bathroom All DImmer","DPST-3-7","Auto"
+"Master Bathroom-All-DIM","0/2/4","","","Master Bathroom All Dimmer","DPST-3-7","Auto"
+"Kitchen-All-DIM","0/2/5","","","Kitchen light dimmer","DPST-3-7","Auto"
+"Small Hallway-Spotlights-DIM","0/2/6","","","Small Hallway Spot Dimmer","DPST-3-7","Auto"
+"Master Bathroom-Shower Spotlight-DIM","0/2/7","","","Master Bathroom Ceiling Spots - Shower","DPST-3-7","Auto"
+"Activity Room-Pool Table-DIM","0/2/8","","","Activity Room Pooltable Dimmer","DPST-3-7","Auto"
+"Livingroom-Behind Couch-DIM","0/2/9","","","Livingroom-Behind Couch","DPST-3-7","Auto"
+"Mudroom-Spotlights-DIM","0/2/12","","","Mudroom Ceiling Spots","DPST-3-7","Auto"
+"Entrance-Spotlights-DIM","0/2/15","","","Entrance Spots Dimmer","DPST-3-7","Auto"
+"Master Bathroom-Spotlights-DIM","0/2/19","","","Master Bathroom Ceiling Spots","DPST-3-7","Auto"
+"Guest Bathroom-Spotlights-DIM","0/2/22","","","Guest Bathroom Spots DImmer","DPST-3-7","Auto"
+"Guest Bathroom-Shower Spotlight-DIM","0/2/25","","","Guest Bathroom Shower Spot DImmer","DPST-3-7","Auto"
+"Office-Ceiling Lights-DIM","0/2/27","","","Kontor Office Ceiling Light","DPST-3-7","Auto"
+"Kitchen-Dining Table By Activity Room-DIM","0/2/33","","","Kitchen Dining Table @ Activity Room Dimmer","DPST-3-7","Auto"
+"Livingroom-Spotlights-DIM","0/2/37","","","Livingroom Spot over Table","DPST-3-7","Auto"
+"Master Bedroom-Ceiling Lights-N-DIM","0/2/50","","","Master Bedroom Ceiling Light N","DPST-3-7","Auto"
+"Master Bedroom-Ceiling Lights-S-DIM","0/2/52","","","Master Bedroom Ceiling Light S","DPST-3-7","Auto"
+"Master Bedroom-All-DIM","0/2/58","","","Master Bedroom Ceiling Light All","DPST-3-7","Auto"
+"Activity Room-Pool Table-DIM-VAL","0/3/0","","","Activity Room Pooltable Dimmer Value","DPST-5-1","Auto"
+"Office-Ceiling Lights-DIM-VAL","0/3/1","","","Kontor Office Ceiling Light","DPST-5-1","Auto"
+"Livingroom-Behind Couch-DIM-VAL","0/3/2","","","Livingroom-Behind Couch","DPST-5-1","Auto"
+"Mudroom-Spotlights-DIM-VAL","0/3/13","","","Mudroom Ceiling Spots","DPST-5-1","Auto"
+"Kitchen-Dining Table By Livingroom-DIM-VAL","0/3/15","","","Alrum Dining Table","DPST-5-1","Auto"
+"Entrance-Spotlights-DIM-VAL","0/3/17","","","Entrance Spots Dimmer Value","DPST-5-1","Auto"
+"Guest Bathroom-Spotlights-DIM-VAL","0/3/21","","","Guest Bathroom spots Dimmer","DPST-5-1","Auto"
+"Small Hallway-Spotlights-DIM-VAL","0/3/23","","","Small Hallway Spot Dimmer Value","DPST-5-1","Auto"
+"Livingroom-Spotlights-DIM-VAL","0/3/41","","","Livingroom Spot over Table","DPST-5-1","Auto"
+"Kitchen-Kitchen Table-DIM-VAL","0/3/42","","","Kitchen table light dimmer value","DPST-5-1","Auto"
+"Kitchen-Dining Table By Activity Room-DIM-VAL","0/3/43","","","Alrum Dining Table","DPST-5-1","Auto"
+"Guest Bathroom-Shower Spotlight-DIM-VAL","0/3/48","","","Guest Bathroom Shower Spot Dimmer Value","DPST-5-1","Auto"
+"Master Bedroom-Ceiling Lights-N-DIM-VAL","0/3/51","","","Master Bedroom Ceiling Light N","DPST-5-1","Auto"
+"Master Bedroom-Ceiling Lights-S-DIM-VAL","0/3/53","","","Master Bedroom Ceiling Light S","DPST-5-1","Auto"
+"Master Bathroom-Shower Spotlight-DIM-VAL","0/3/55","","","Master Bathroom Ceiling Spots - Shower","DPST-5-1","Auto"
+"Master Bathroom-Spotlights-DIM-VAL","0/3/56","","","Master Bathroom Ceiling Spots","DPST-5-1","Auto"
+"Master Bedroom-All-DIM-VAL","0/3/59","","","Master Bedroom All Lights Dimming Value","DPST-5-1","Auto"
+"Entrance-Spotlights-DIM-VAL-FB","0/4/0","","","Entrance Dimming value feedback","DPST-5-1","Auto"
+"Mudroom-Spotlights-DIM-VAL-FB","0/4/1","","","Mudroom Ceiling Spots","DPST-5-1","Auto"
+"Kitchen-Dining Table By Activity Room-DIM-VAL-FB","0/4/2","","","Alrum Dining Table @ Activity Room Dimming feedback value","DPST-5-1","Auto"
+"Kitchen-Kitchen Table-DIM-VAL-FB","0/4/3","","","Kitchen table light dimmer value feedback","DPST-5-1","Auto"
+"Activity Room-Pool Table-DIM-VAL-FB","0/4/4","","","Activity Room Pooltable Dimmer Value Feedback","DPST-5-1","Auto"
+"Master Bathroom-Spotlights-DIM-VAL-FB","0/4/5","","","Master Bathroom Ceiling Spots","DPST-5-1","Auto"
+"Master Bedroom-Ceiling Lights-N-DIM-VAL-FB","0/4/6","","","Master Bedroom Ceiling Light N","DPST-5-1","Auto"
+"Guest Bathroom-Spotlights-DIM-VAL-FB","0/4/7","","","Guest Bathroom spots Dimmer Feedback value","DPST-5-1","Auto"
+"Office-Ceiling Lights-DIM-VAL-FB","0/4/8","","","Kontor Office Ceiling Light","DPST-5-1","Auto"
+"Master Bedroom-Ceiling Lights-S-DIM-VAL-FB","0/4/9","","","Master Bedroom Ceiling Light S","DPST-5-1","Auto"
+"Guest Bathroom-Shower Spotlight-DIM-VAL-FB","0/4/10","","","Guest Bathroom Shower Spot Dimmer Feedback Value","DPST-5-1","Auto"
+"Master Bathroom-Shower Spotlight-DIM-VAL-FB","0/4/11","","","Master Bathroom Ceiling Spots - Shower","DPST-5-1","Auto"
+"Livingroom-Behind Couch-DIM-VAL-FB","0/4/12","","","Livingroom-Behind Couch","DPST-5-1","Auto"
+"Kitchen-Dining Table By Livingroom-DIM-VAL-FB","0/4/17","","","Alrum Dining Table @ Livingroom Dimming feedback value","DPST-5-1","Auto"
+"Small Hallway-Spotlights-DIM-VAL-FB","0/4/25","","","Small Hallway Spot Dimmer Value Feedback","DPST-5-1","Auto"
+"Livingroom-Spotlight-DIM-VAL-FB","0/4/40","","","Livingroom Spot over Table","DPST-5-1","Auto"
+"Stue - Lamel gardiner - Drej lamel","1/5/0","","","openhab:
+ignore=true","","Auto"
+"Køkken Almrum - Lamel gardiner - Aaben og luk","1/5/1","","","openhab:
+ignore=true","","Auto"
+"Køkken Alrun - Lamel gardiner - Drej lamel","1/5/2","","","openhab:
+ignore=true","","Auto"
+"Stue - Lamel gardiner - Aaben og luk","1/5/3","","","openhab:
+ignore=true","","Auto"
+"Køkken Alrum - Lamel Position","1/5/4","","","openhab:
+ignore=true","","Auto"
+"Køkken Alrum - Move to position","1/5/5","","","openhab:
+ignore=true","","Auto"
+"Depot - Lys - Disable Time Function- on/off","1/6/11","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"# House Wide - Status LEDs - Nattedæpning","1/6/23","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Værelse Øst - Status","1/6/47","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Stort badeværelse - Scene Input","1/6/54","","","openhab:
+ignore=true","","Auto"
+"Soveværelse - Scene Input","1/6/60","","","openhab:
+ignore=true","DPT-17","Auto"
+"Master Bedroom-PBS-N-RT","2/0/0","","","Master Bedroom Heating","DPST-9-1","Auto"
+"Master Bedroom-PBS-S-RT","2/0/1","","","Master Bedroom Heating","DPST-9-1","Auto"
+"Master Bedroom-PBS-E-RT","2/0/2","","","Master Bedroom Heating","DPST-9-1","Auto"
+"Mudroom-RT","2/0/3","","","Bryggers Heating","DPST-9-1","Auto"
+"Master Bedroom-RT","2/0/4","","","Master Bedroom Heating","DPST-9-1","Auto"
+"Office-RT","2/0/5","","","Office Heating","DPST-9-1","Auto"
+"East Room-RT","2/0/6","","","East Room Heating","DPST-9-1","Auto"
+"Walk-In-RT","2/0/7","","","Walk-in Heating","DPST-9-1","Auto"
+"Mudroom-PBS-H-RT","2/0/8","","","Bryggers Heating","DPST-9-1","Auto"
+"Mudroom-PBS-G-RT","2/0/9","","","Bryggers Heating","DPST-9-1","Auto"
+"Garage-RT","2/0/10","","","Garage Heating","DPST-9-1","Auto"
+"West Room-RT","2/0/11","","","West Room Heating","DPST-9-1","Auto"
+"Guest Bathroom-RT","2/0/12","","","Guest Bathroom Heating","DPST-9-1","Auto"
+"Master Bathroom-RT","2/0/13","","","Master Bathroom Heating","DPST-9-1","Auto"
+"Livingroom-RT","2/0/14","","","Livingroom Heating","DPST-9-1","Auto"
+"Larder-RT","2/0/15","","","Larder Heating","DPST-9-1","Auto"
+"Main Living Area-RT","2/0/16","","","Main Living Area Heating","DPST-9-1","Auto"
+"Main Living Area-PBS-W-RT","2/0/17","","","Main Living Area Heating","DPST-9-1","Auto"
+"Main Living Area-PBS-E-RT","2/0/18","","","Main Living Area Heating","DPST-9-1","Auto"
+"Main Living Area-PBS-N-RT","2/0/19","","","Main Living Area Heating","DPST-9-1","Auto"
+"Main Living Area-PBS-S-RT","2/0/20","","","Main Living Area Heating","DPST-9-1","Auto"
+"Garage-PBS-M-RT","2/0/21","","","Garage Heating","DPST-9-1","Auto"
+"Garage-PBS-G-RT","2/0/22","","","Garage Heating","DPST-9-1","Auto"
+"Larder-RAD","2/1/0","","","Larder Heating","DPST-5-1","Auto"
+"Master Bedroom-RAD","2/1/1","","","Master Bedroom Heating","DPST-5-1","Auto"
+"Main Living Area-RAD","2/1/2","","","Main Living Area Heating","DPST-5-1","Auto"
+"Main Living Area-Valve 12A-RAD-VFB","2/1/3","","","Main Living Area Heating","DPST-5-1","Auto"
+"Office-RAD","2/1/4","","","Office Heating","DPST-5-1","Auto"
+"East Room-RAD","2/1/5","","","East Room Heating","DPST-5-1","Auto"
+"West Room-RAD","2/1/6","","","West Room Heating","DPST-5-1","Auto"
+"Main Living Area-Valve 12G-RAD-VFB","2/1/7","","","Main Living Area Heating","DPST-5-1","Auto"
+"Mudroom-RAD","2/1/8","","","Bryggers Heating","DPST-5-1","Auto"
+"Main Living Area-Valve 12J-RAD-VFB","2/1/9","","","Main Living Area Heating","DPST-5-1","Auto"
+"Mudroom-RAD-VFB","2/1/10","","","Bryggers Heating","DPST-5-1","Auto"
+"Garage-RAD","2/1/11","","","Garage Heating","DPST-5-1","Auto"
+"Garage-Valve 12E-RAD-VFB","2/1/12","","","Garage Heating","DPST-5-1","Auto"
+"Garage-Valve 12F-RAD-VFB","2/1/13","","","Garage Heating","DPST-5-1","Auto"
+"East Room-RAD-VFB","2/1/14","","","East Room Heating","DPST-5-1","Auto"
+"Guest Bathroom-RAD","2/1/15","","","Guest Bathroom Heating","DPST-5-1","Auto"
+"Master Bathroom-RAD","2/1/16","","","Master Bathroom Heating","DPST-5-1","Auto"
+"Livingroom-RAD","2/1/17","","","Livingroom Heating","DPST-5-1","Auto"
+"Walk-In-RAD","2/1/18","","","Walk-in Heating","DPST-5-1","Auto"
+"Guest Bathroom-RAD-VFB","2/1/19","","","Guest Bathroom Heating","DPST-5-1","Auto"
+"West Room-RAD-VFB","2/1/20","","","West Room Heating","DPST-5-1","Auto"
+"Office-RAD-VFB","2/1/21","","","Office Heating","DPST-5-1","Auto"
+"Master Bathroom-RAD-VFB","2/1/22","","","Master Bathroom Heating","DPST-5-1","Auto"
+"Master Bedroom-RAD-VFB","2/1/23","","","Master Bedroom Heating","DPST-5-1","Auto"
+"Larder-RAD-VFB","2/1/24","","","Larder Heating","DPST-5-1","Auto"
+"Walk-In-RAD-VFB","2/1/25","","","Walk-in Heating","DPST-5-1","Auto"
+"Office-RT-SP-VAL","2/2/0","","","Office Heating","DPST-9-1","Auto"
+"Office-RT-SP","2/2/1","","","Office Heating","DPST-9-1","Auto"
+"West Room-RT-SP-VAL","2/2/2","","","West Room Heating","DPST-9-1","Auto"
+"West Room-RT-SP","2/2/3","","","West Room Heating","DPST-9-1","Auto"
+"Master Bedroom-RT-SP-VAL","2/2/4","","","Master Bedroom Heating","DPST-9-1","Auto"
+"Master Bedroom-RT-SP","2/2/5","","","Master Bedroom Heating","DPST-9-1","Auto"
+"Guest Bathroom-RT-SP","2/2/6","","","Guest Bathroom Heating","DPST-9-1","Auto"
+"Guest Bathroom-RT-SP-VAL","2/2/7","","","Guest Bathroom Heating","DPST-9-1","Auto"
+"Master Bathroom-RT-SP","2/2/8","","","Master Bathroom Heating","DPST-9-1","Auto"
+"Master Bathroom-RT-SP-VAL","2/2/9","","","Master Bathroom Heating","DPST-9-1","Auto"
+"Mudroom-RT-SP-VAL","2/2/10","","","Bryggers Heating","DPST-9-1","Auto"
+"Livingroom-RT-SP-VAL","2/2/11","","","Livingroom Heating","DPST-9-1","Auto"
+"Mudroom-RT-SP","2/2/12","","","Bryggers Heating","DPST-9-1","Auto"
+"Livingroom-RT-SP","2/2/13","","","Livingroom Heating","DPST-9-1","Auto"
+"East Room-RT-SP-VAL","2/2/14","","","East Room Heating","DPST-9-1","Auto"
+"East Room-RT-SP","2/2/15","","","East Room Heating","DPST-9-1","Auto"
+"Walk-In-RT-SP-VAL","2/2/16","","","Walk-in Heating","DPST-9-1","Auto"
+"Larder-RT-SP","2/2/17","","","Larder Heating","DPST-9-1","Auto"
+"Larder-RT-SP-VAL","2/2/18","","","Larder Heating","DPST-9-1","Auto"
+"Main Living Area-RT-SP-VAL","2/2/19","","","Main Living Area Heating","DPST-9-1","Auto"
+"Main Living Area-RT-SP","2/2/20","","","Main Living Area Heating","DPST-9-1","Auto"
+"Office-RT-SP-VFB","2/2/21","","","Office Heating","DPST-9-1","Auto"
+"Walk-In-RT-SP","2/2/22","","","Walk-in Heating","DPST-9-1","Auto"
+"Garage-RT-SP-VAL","2/2/23","","","Garage Heating","DPST-9-1","Auto"
+"Garage-RT-SP","2/2/24","","","Garage Heating","DPST-9-1","Auto"
+"Mudroom-RT-SP-VFB","2/2/25","","","Bryggers Heating","DPST-9-1","Auto"
+"Garage-RT-SP-VFB","2/2/26","","","Garage Heating","DPST-9-1","Auto"
+"Livingroom-RT-SP-VFB","2/2/27","","","Livingroom Heating","DPST-9-1","Auto"
+"Main Living Area-RT-SP-VFB","2/2/28","","","Main Living Area Heating","DPST-9-1","Auto"
+"Master Bedroom-RT-SP-VFB","2/2/29","","","Master Bedroom Heating","DPST-9-1","Auto"
+"Master Bathroom-RT-SP-VFB","2/2/30","","","Master Bathroom Heating","DPST-9-1","Auto"
+"East Room-RT-SP-VFB","2/2/31","","","East Room Heating","DPST-9-1","Auto"
+"West Room-RT-SP-VFB","2/2/32","","","West Room Heating","DPST-9-1","Auto"
+"Guest Bathroom-RT-SP-VFB","2/2/33","","","Guest Bathroom Heating","DPST-9-1","Auto"
+"Larder-RT-SP-VFB","2/2/34","","","Larder Heating","DPST-9-1","Auto"
+"Walk-In-RT-SP-VFB","2/2/35","","","Walk-in Heating","DPST-9-1","Auto"
+"Office-RTR-VAL","2/3/0","","","Office Heating","DPT-5","Auto"
+"Office-RTR","2/3/1","","","Office Heating","DPT-5","Auto"
+"Mudroom-RTR-VAL","2/3/2","","","Bryggers Heating","DPT-5","Auto"
+"East Room-RTR-VAL","2/3/3","","","East Room Heating","DPT-5","Auto"
+"Mudroom-RTR","2/3/4","","","Bryggers Heating","DPT-5","Auto"
+"East Room-RTR","2/3/5","","","East Room Heating","DPT-5","Auto"
+"Master Bedroom-RTR-VAL","2/3/6","","","Master Bedroom Heating","DPT-5","Auto"
+"Master Bedroom-RTR","2/3/7","","","Master Bedroom Heating","DPT-5","Auto"
+"West Room-RTR","2/3/8","","","West Room Heating","DPT-5","Auto"
+"West Room-RTR-VAL","2/3/9","","","West Room Heating","DPT-5","Auto"
+"Guest Bathroom-RTR","2/3/10","","","Guest Bathroom Heating","DPT-5","Auto"
+"Guest Bathroom-RTR-VAL","2/3/11","","","Guest Bathroom Heating","DPT-5","Auto"
+"Master Bathroom-RTR","2/3/12","","","Master Bathroom Heating","DPT-5","Auto"
+"Master Bathroom-RTR-VAL","2/3/13","","","Master Bathroom Heating","DPT-5","Auto"
+"Livingroom-RTR-VAL","2/3/14","","","Livingroom Heating","DPT-5","Auto"
+"Livingroom-RTR","2/3/15","","","Livingroom Heating","DPT-5","Auto"
+"Walk-In-RTR-VAL","2/3/16","","","Walk-in Heating","DPT-5","Auto"
+"Walk-In-RTR","2/3/17","","","Walk-in Heating","DPT-5","Auto"
+"Larder-RTR","2/3/18","","","Larder Heating","DPT-5","Auto"
+"Larder-RTR-VAL","2/3/19","","","Larder Heating","DPT-5","Auto"
+"Main Living Area-RTR-VAL","2/3/20","","","Main Living Area Heating","DPT-5","Auto"
+"Main Living Area-RTR","2/3/21","","","Main Living Area Heating","DPT-5","Auto"
+"Garage-RTR-VAL","2/3/22","","","Garage Heating","DPT-5","Auto"
+"Garage-RTR","2/3/23","","","Garage Heating","DPT-5","Auto"
+"Main Living Area-RTR-VFB","2/3/24","","","Main Living Area Heating","DPT-5","Auto"
+"Office-RTR-VFB","2/3/25","","","Office Heating","DPT-5","Auto"
+"Livingroom-RTR-VFB","2/3/28","","","Livingroom Heating","DPT-5","Auto"
+"Master Bathroom-RTR-VFB","2/3/29","","","Master Bathroom Heating","DPT-5","Auto"
+"Master Bedroom-RTR-VFB","2/3/30","","","Master Bedroom Heating","DPT-5","Auto"
+"West Room-RTR-VFB","2/3/31","","","West Room Heating","DPT-5","Auto"
+"Larder-RTR-VFB","2/3/32","","","Larder Heating","DPT-5","Auto"
+"Walk-In-RTR-VFB","2/3/33","","","Walk-in Heating","DPT-5","Auto"
+"Garage-RTR-VFB","2/3/34","","","Garage Heating","DPT-5","Auto"
+"Mudroom-RTR-VFB","2/3/35","","","Bryggers Heating","DPT-5","Auto"
+"Guest Bathroom-RTR-VFB","2/3/36","","","Guest Bathroom Heating","DPT-5","Auto"
+"East Room-RTR-VFB","2/3/37","","","East Room Heating","DPT-5","Auto"
+"House-HVAC Economy Mode-ENABLE","2/4/26","","","","DPT-1","Auto"
+"House-HVAC Standby Mode-ENABLE","2/4/27","","","","DPT-1","Auto"
+"Office-DA-SW","3/0/0","","","openhab:
+ignore=true","DPST-1-2","Auto"
+"Entrance-ALARM-SW","3/0/1","","","openhab:
+ignore=true","DPST-1-5","Auto"
+"Office-ALARM-SW","3/0/2","","","openhab:
+ignore=true","DPST-1-5","Auto"
+"Entrance-DA-SW","3/0/3","","","openhab:
+ignore=true","DPST-1-3","Auto"
+"ALL-DA-SW","3/0/4","","","openhab:
+ignore=true","DPST-1-2","Auto"
+"ALL-ALARM-SW","3/0/5","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"GarageDoor-OC","3/1/0","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-9","Auto"
+"GarageDoor-Stop-SW","3/1/1","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-10","Auto"
+"GarageDoor-Vent-SW","3/1/2","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-1","Auto"
+"GarageDoor-DriveLock-SW","3/1/4","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-1","Auto"
+"GarageDoor-KNXLock-SW","3/1/5","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-1","Auto"
+"GarageDoor-Open-FB","3/1/6","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-2","Auto"
+"GarageDoor-Closed-FB","3/1/7","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-2","Auto"
+"GarageDoor-Vent-SW-FB","3/1/8","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-2","Auto"
+"GarageDoor-Moving-FB","3/1/9","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-2","Auto"
+"GarageDoor-Moving-Up-FB","3/1/10","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-2","Auto"
+"GarageDoor-Moving-Down-FB","3/1/12","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-2","Auto"
+"GarageDoor-About-To-Move-FB","3/1/13","","","Garage Garage Door
+
+openhab:
+ignore=true","DPST-1-2","Auto"
+"GarageDoor-ErrorCode","3/1/15","","","Garage Garage Door
+
+openhab:
+ignore=true","DPT-12","Auto"
+"Current Time and Date","5/0/0","","","openhab:
+ignore=true","","Auto"
+"Binary #3-7","5/1/2","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #3-6","5/1/3","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #3-2","5/1/4","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #3-5","5/1/5","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #3-3","5/1/6","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #3-4","5/1/7","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #3-8","5/1/8","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #4-8","5/1/24","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #4-6","5/1/25","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #4-7","5/1/26","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary #4-5","5/1/27","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Master Bathroom Inflow Cold Water-RS","5/2/0","","","openhab:
+ignore=true","DPST-9-1","Auto"
+"Master Bathroom Inflow Hot Water-RS","5/2/1","","","openhab:
+ignore=true","DPST-9-1","Auto"
+"Master Bathroom Inflow Cold Water-DS","5/2/2","","","openhab:
+ignore=true","DPST-9-1","Auto"
+"Master Bathroom Inflow Hot Water-DS","5/2/3","","","openhab:
+ignore=true","DPST-9-1","Auto"
+"Guest Bathroom Inflow Hot Water-DS","5/2/4","","","openhab:
+ignore=true","DPST-9-1","Auto"
+"Guest Bathroom Inflow Hot Water-RS","5/2/5","","","openhab:
+ignore=true","DPST-9-1","Auto"
+"Guest Bathroom Inflow Cold Water-DS","5/2/6","","","openhab:
+ignore=true","DPST-9-1","Auto"
+"Guest Bathroom Inflow Cold Water-RS","5/2/7","","","openhab:
+ignore=true","DPST-9-1","Auto"
+"Bus Voltage Un","5/3/0","","","openhab:
+ignore=true","DPST-14-27","Auto"
+"Bus Current l","5/3/1","","","openhab:
+ignore=true","DPST-14-19","Auto"
+"Driveway-SEN-LUX","5/3/2","","","openhab:
+ignore=true","DPST-9-4","Auto"
+"Driveway-SEN-PRS","5/3/3","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"Binary Input 8 fold #4-OP","5/3/4","","","openhab:
+ignore=true","DPST-1-11","Auto"
+"Binary Input 8 fold #3-OP","5/3/5","","","openhab:
+ignore=true","DPST-1-11","Auto"
+"Binary Input 8 fold #1-OP","5/3/6","","","openhab:
+ignore=true","DPST-1-11","Auto"
+"Binary Input 8 fold #2-OP","5/3/7","","","openhab:
+ignore=true","DPST-1-11","Auto"
+"ABA/S.1.2.1-OP","5/3/8","","","openhab:
+ignore=true","DPST-1-1","Auto"
+"SV/S30.320.2.1-OP","5/3/9","","","openhab:
+ignore=true","DPST-1-2","Auto"
+"Master Bedroom-Windows-CONTACT","5/4/0","","","","DPST-1-2","Auto"
+"Livingroom-Windows or Door-CONTACT","5/4/1","","","","DPST-1-2","Auto"
+"Main Living Area-Activity Room Door-CONTACT","5/4/2","","","Main Living Area Windows","DPST-1-1","Auto"
+"Main Living Area-Windows or Doors-CONTACT","5/4/3","","","Main Living Area Windows","DPST-1-2","Auto"
+"Garage-Window or Door-CONTACT","5/4/4","","","","DPST-1-2","Auto"
+"East Room-Window-CONTACT","5/4/8","","","","DPST-1-1","Auto"
+"Master Bathroom-Window-CONTACT","5/4/9","","","","DPST-1-1","Auto"
+"Master Bedroom-North Window-CONTACT","5/4/10","","","","DPST-1-1","Auto"
+"Master Bedroom-South Window-CONTACT","5/4/11","","","","DPST-1-1","Auto"
+"Main Living Area-Entrance Door-CONTACT","5/4/12","","","Main Living Area Windows","DPST-1-1","Auto"
+"Mudroom-Window-CONTACT","5/4/13","","","","DPST-1-1","Auto"
+"Garage-Window-CONTACT","5/4/14","","","","DPST-1-1","Auto"
+"West Room-Window-CONTACT","5/4/15","","","","DPST-1-1","Auto"
+"Livingroom-North Window-CONTACT","5/4/16","","","","DPST-1-1","Auto"
+"Main Living Area-Dining Area Door or Windows-CONTACT","5/4/17","","","Main Living Area Windows","DPST-1-1","Auto"
+"Office-Window-CONTACT","5/4/18","","","","DPST-1-1","Auto"
+"Livingroom-South Windows or Door-CONTACT","5/4/19","","","","DPST-1-1","Auto"
+"Livingroom-West Window-CONTACT","5/4/20","","","","DPST-1-1","Auto"
+"Kitchen-Window-CONTACT","5/4/21","","","Main Living Area Windows","DPST-1-1","Auto"
+"Guest Bathroom-Window-CONTACT","5/4/22","","","","DPST-1-1","Auto"
+"Garage-Back Door-CONTACT","5/4/23","","","","DPST-1-1","Auto"
