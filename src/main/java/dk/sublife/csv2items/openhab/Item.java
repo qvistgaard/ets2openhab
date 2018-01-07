@@ -22,7 +22,7 @@ public abstract class Item {
 	}
 
 	public String getName(){
-		return name + getClass().getSimpleName();
+		return (name + getClass().getSimpleName()).replaceAll("\\s|_|/|-", "");
 	}
 
 	public abstract String openhab();
@@ -31,7 +31,7 @@ public abstract class Item {
 	}
 	public String openhab(String itemType, String itemName, String label, String icon, String[] groups, String[] tags, String bindingConfig){
 		final StringBuilder sb = new StringBuilder(itemType).append(" ")
-				.append(itemName.replaceAll("\\s|_|/|-", "")).append(" ")
+				.append(itemName).append(" ")
 				.append("\"").append(label).append("\" ");
 		if(icon != null){
 			sb.append("<").append(icon).append("> ");
@@ -53,4 +53,9 @@ public abstract class Item {
 	public String openhabSitemap(String type, String item){
 		return String.format("\t\t%s item=%s", type, item.replaceAll("\\s|/|-|_", ""));
 	}
+
+	public String openhabSitemap(String type, String item, String extraSettings){
+		return String.format("\t\t%s item=%s %s", type, item.replaceAll("\\s|/|-|_", ""), extraSettings);
+	}
+
 }

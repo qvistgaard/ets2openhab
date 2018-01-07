@@ -12,7 +12,7 @@ public class Light extends Switch {
 
 	public Light(SupportedLine supportedLine) {
 		super(supportedLine);
-		setIcon("lightbulp");
+		setIcon("light");
 	}
 
 	public void addLine(LightSwitch lightSwitch){

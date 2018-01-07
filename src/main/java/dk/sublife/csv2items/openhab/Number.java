@@ -1,7 +1,5 @@
 package dk.sublife.csv2items.openhab;
 
-import dk.sublife.csv2items.ets.Address;
-import dk.sublife.csv2items.ets.Line;
 import dk.sublife.csv2items.ets.SupportedLine;
 import lombok.Data;
 
@@ -14,16 +12,6 @@ public class Number extends Item {
 	public Number(SupportedLine supportedLine) {
 		super(supportedLine);
 	}
-
-/*	static Number create(final String name, final Line line, final String dpt, final String... tags){
-		Number i = new Number();
-		i.setName(name);
-		i.setGroups(new String[]{line.getRoom()});
-		i.setTags(tags);
-		i.setLabel(name);
-		i.setDpt(dpt);
-		return i;
-	}*/
 
 	@Override
 	public String openhab() {
