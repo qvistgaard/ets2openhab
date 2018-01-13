@@ -6,16 +6,9 @@ import dk.sublife.csv2items.ets.SupportedLine;
 public class Temperature extends Number {
 	public Temperature(SupportedLine supportedLine) {
 		super(supportedLine);
-	}
-
-/*	public Temperature(final String name, final Line line, final String dpt, final String... tags) {
-		setName(name);
-		setGroups(new String[]{line.getRoom()});
-		setTags(tags);
-		setLabel(name);
-		setDpt(dpt);
 		setIcon("temperature");
-	}*/
+		setDpt("9.001");
+	}
 
 	@Override
 	public String getLabel() {

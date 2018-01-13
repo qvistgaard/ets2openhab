@@ -18,6 +18,9 @@ abstract public class SupportedLine extends LineBase {
 	}
 
 	abstract public String getItemName();
+	public boolean isReadable(boolean defaultValue){
+		return Boolean.valueOf(getSettings().getProperty("readable", String.valueOf(defaultValue)));
+	}
 
 /*
 	public enum Type {

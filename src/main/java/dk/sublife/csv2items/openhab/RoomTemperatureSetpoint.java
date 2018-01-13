@@ -17,4 +17,9 @@ public class RoomTemperatureSetpoint extends Temperature {
 	public void addLine(dk.sublife.csv2items.ets.types.RoomTemperatureSetpointFeedback roomTemperatureSetpointFeedback){
 		setValueFeedback(roomTemperatureSetpointFeedback);
 	}
+
+	@Override
+	public String openhabSitemap() {
+		return openhabSitemap("Setpoint", getName(), " minValue=7 maxValue=30 step=0.5");
+	}
 }

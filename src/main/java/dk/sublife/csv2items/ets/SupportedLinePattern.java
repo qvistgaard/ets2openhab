@@ -20,4 +20,5 @@ public abstract class SupportedLinePattern extends SupportedLine {
 	public String getItemName() {
 		return getPattern().matcher(getName()).replaceAll("$1");
 	}
+
 }
