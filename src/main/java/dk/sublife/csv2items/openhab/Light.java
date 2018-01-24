@@ -13,6 +13,7 @@ public class Light extends Switch {
 	public Light(SupportedLine supportedLine) {
 		super(supportedLine);
 		setIcon("light");
+		getGroups().add("Lights");
 	}
 
 	public void addLine(LightSwitch lightSwitch){
@@ -23,6 +24,7 @@ public class Light extends Switch {
 	}
 	public void addLine(LightDimmer lightDimmer){
 		setIncreaseDecrease(lightDimmer);
+		getGroups().add("DimmableLights");
 	}
 	public void addLine(LightDimmerValue lightDimmerValue){
 		setPercent(lightDimmerValue);
@@ -67,7 +69,7 @@ public class Light extends Switch {
 		if(getIncreaseDecrease() == null){
 			return super.openhabSitemap();
 		} else {
-			return openhabSitemap("Switch", getName()) + "\n" + super.openhabSitemap();
+			return openhabSitemap("Switch", getName()) + "\n\t\t\t\t" + openhabSitemap("Slider", getName());
 		}
 	}
 }

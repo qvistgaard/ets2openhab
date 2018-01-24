@@ -10,6 +10,12 @@ public class RoomTemperatureSetpointValue extends Temperature {
 		super(supportedLine);
 	}
 
+	@Override
+	public String getGrouping() {
+		return RoomTemperatureSetpoint.class.getSimpleName();
+	}
+
+
 	public void addLine(dk.sublife.csv2items.ets.types.RoomTemperatureSetpointValue roomTemperatureSetpointValue){
 		setValue(roomTemperatureSetpointValue);
 	}

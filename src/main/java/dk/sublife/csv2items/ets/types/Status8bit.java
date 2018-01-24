@@ -7,19 +7,19 @@ import org.apache.commons.csv.CSVRecord;
 import java.util.regex.Pattern;
 
 @ToString(callSuper = true)
-public class Contact extends SupportedLinePattern {
+public class Status8bit extends SupportedLinePattern {
 
-	public Contact(CSVRecord record) throws Exception {
+	public Status8bit(CSVRecord record) throws Exception {
 		super(record);
 	}
 
 	@Override
 	protected Pattern getPattern() {
-		return Pattern.compile("(.*?)-CONTACT$");
+		return Pattern.compile("(.*?)-STATUS");
 	}
 
 	@Override
 	public boolean isSupported() {
-		return super.isSupported() && (getType().equals("DPST-1-2") || getType().equals("DPST-1-1"));
+		return super.isSupported() && (getType().equals("DPT-238"));
 	}
 }

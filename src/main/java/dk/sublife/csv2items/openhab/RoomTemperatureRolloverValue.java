@@ -12,6 +12,11 @@ public class RoomTemperatureRolloverValue extends Number {
 		setIcon("heating");
 	}
 
+	@Override
+	public String getGrouping() {
+		return RoomTemperatureRollover.class.getSimpleName();
+	}
+
 	public void addLine(dk.sublife.csv2items.ets.types.RoomTemperatureRolloverValue roomTemperatureRolloverValue){
 		setValue(roomTemperatureRolloverValue);
 	}
@@ -20,6 +25,5 @@ public class RoomTemperatureRolloverValue extends Number {
 	public String getLabel() {
 		return super.getLabel()+" [MAP(rtr.map):%s]";
 	}
-
 
 }

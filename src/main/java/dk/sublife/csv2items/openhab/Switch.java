@@ -1,8 +1,7 @@
 package dk.sublife.csv2items.openhab;
 
 import dk.sublife.csv2items.ets.SupportedLine;
-import dk.sublife.csv2items.ets.types.LightSwitch;
-import dk.sublife.csv2items.ets.types.LightSwitchFeedback;
+import dk.sublife.csv2items.ets.types.BlindsSlatsStep;
 import lombok.Data;
 
 @Data
@@ -30,6 +29,30 @@ public class Switch extends Item {
 	public void addLine(dk.sublife.csv2items.ets.types.SettingEnable settingEnable){
 		setOnOff(settingEnable);
 	}
+	public void addLine(dk.sublife.csv2items.ets.types.BlindsAutomatic blindsAutomatic){
+		setOnOff(blindsAutomatic);
+		setIcon("switch");
+	}
+	public void addLine(dk.sublife.csv2items.ets.types.BlindsPresence blindsPresence){
+		setOnOff(blindsPresence);
+		setIcon("switch");
+	}
+	public void addLine(dk.sublife.csv2items.ets.types.BlindsHeating blindsHeating){
+		setOnOff(blindsHeating);
+		setIcon("switch");
+	}
+	public void addLine(BlindsSlatsStep blindsSlatsStep){
+		setOnOff(blindsSlatsStep);
+		setIcon("switch");
+	}
+	public void addLine(dk.sublife.csv2items.ets.types.BlindsCooling blindsCooling){
+		setOnOff(blindsCooling);
+		setIcon("switch");
+	}
+	public void addLine(dk.sublife.csv2items.ets.types.BlindsSun blindsSun){
+		setOnOff(blindsSun);
+		setIcon("switch");
+	}
 
 	@Override
 	public String openhab() {
@@ -55,4 +78,8 @@ public class Switch extends Item {
 		return openhab("Switch", getName(), getLabel(), getIcon(), getGroups(), getTags(), sb.toString());
 	}
 
+	@Override
+	public String openhabSitemap() {
+		return openhabSitemap("Switch", getName());
+	}
 }

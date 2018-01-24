@@ -22,6 +22,6 @@ public class SettingEnable extends SupportedLinePattern {
 
 	@Override
 	public boolean isSupported() {
-		return super.isSupported() && getType().equals("DPT-1");
+		return super.isSupported() && (getType().equals("DPT-1") || getType().isEmpty() || getType().equals("DPST-1-1"));
 	}
 }

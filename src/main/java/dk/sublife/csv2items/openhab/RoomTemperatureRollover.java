@@ -22,6 +22,12 @@ public class RoomTemperatureRollover extends Number {
 
 	@Override
 	public String getLabel() {
+		// return super.getLabel();
 		return super.getLabel()+" [MAP(rtr.map):%s]";
+	}
+
+	@Override
+	public String openhabSitemap() {
+		return openhabSitemap("Selection", getName(), " mappings=[0=\"Auto\", 1=\"Comfort\", 2=\"Standby\", 3=\"Economy\", 4=\"Building Protection\"]");
 	}
 }

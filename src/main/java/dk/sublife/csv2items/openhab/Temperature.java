@@ -8,6 +8,7 @@ public class Temperature extends Number {
 		super(supportedLine);
 		setIcon("temperature");
 		setDpt("9.001");
+		getGroups().add("Temperatures");
 	}
 
 	@Override

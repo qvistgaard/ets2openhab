@@ -1,7 +1,7 @@
 package dk.sublife.csv2items.openhab;
 
 import dk.sublife.csv2items.ets.SupportedLine;
-import lombok.Data;
+import dk.sublife.csv2items.ets.types.BlindsInPosition;
 
 public class Contact extends Switch {
 
@@ -10,6 +10,9 @@ public class Contact extends Switch {
 	}
 
 	public void addLine(dk.sublife.csv2items.ets.types.Contact contact){
+		setOnOff(contact);
+	}
+	public void addLine(BlindsInPosition contact){
 		setOnOff(contact);
 	}
 

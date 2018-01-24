@@ -3,10 +3,14 @@ package dk.sublife.csv2items.openhab;
 
 import dk.sublife.csv2items.ets.SupportedLine;
 
-public class Window extends Switch {
+public class Window extends Contact {
 
 	public Window(SupportedLine supportedLine) {
 		super(supportedLine);
+		setIcon("window");
+	}
+	public void addLine(dk.sublife.csv2items.ets.types.Window window){
+		setOnOff(window);
 	}
 
 	@Override
